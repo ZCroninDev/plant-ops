@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "client": {
+    "plant-ops-client": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "client:build:production"
+              "buildTarget": "plant-ops-client:build:production"
             },
             "development": {
-              "buildTarget": "client:build:development"
+              "buildTarget": "plant-ops-client:build:development"
             }
           },
           "defaultConfiguration": "development"

@@ -22,3 +22,7 @@ Thumbs.db
 
 # Personal Claude Code instructions (private)
 CLAUDE.local.md
+
+# Claude Code files (private, never committed)
+.claude/
+CLAUDE.md
